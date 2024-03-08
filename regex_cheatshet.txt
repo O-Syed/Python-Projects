@@ -1,0 +1,2 @@
+^\d{6}$                 #start, six digits, end
+(?=(\d)\d\1)            # match alternating digit
